@@ -54,7 +54,7 @@ fun DivideScreen() {
 
     var num1 by remember { mutableStateOf("") }
     var num2 by remember { mutableStateOf("") }
-    var result by remember { mutableStateOf("") }
+    var result by remember { mutableStateOf(0) }
 
     Column(
         modifier = Modifier.padding(16.dp)
